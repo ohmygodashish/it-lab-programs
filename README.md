@@ -4,19 +4,7 @@ This repository contains the laboratory programs implemented as part of the Info
 ## Repository Structure
 ```
 ├── IT201n/          # Course: [Data Structures]
-├── IT301n/          # Course: [Compiler Design]
-│   ├── EXP1.cpp     
-│   ├── EXP2.cpp     
-│   ├── EXP3.cpp     
-│   ├── EXP4.cpp     
-│   ├── EXP5.cpp     
-│   ├── EXP6.cpp     
-│   ├── EXP7.cpp     
-│   ├── EXP8.cpp     
-│   ├── EXP9.cpp     
-│   ├── EXP10.cpp    
-│   ├── EXP11.cpp    
-│   └── EXP12.cpp    
+├── IT301n/          # Course: [Compiler Design]   
 └── IT303/           # Course: [Computer Networks]
 ```
 

@@ -1,3 +1,6 @@
+### Experiment Q&A
+[Grok Chat](https://grok.com/share/bGVnYWN5_8da24b7a-166f-4838-add8-0d7c2aa9accc)
+
 ### Experiment 2: Bit Stuffing
 Bit stuffing is a data transmission technique used to ensure proper frame synchronization and prevent confusion between data and control sequences. In data communication, specific bit patterns like "01111110" are used as flag sequences to mark the beginning and end of frames. However, if this same pattern appears in the data portion, it could be mistakenly interpreted as a frame delimiter. To solve this, bit stuffing inserts an extra '0' bit after five consecutive '1's in the data stream. The receiver performs the inverse operation (bit destuffing) by removing these stuffed bits to recover the original data. This technique ensures transparency in data transmission, allowing any binary data to be transmitted without being misinterpreted as control information. The implementation demonstrates the process of scanning input data, counting consecutive ones, inserting stuff bits when needed, and displaying the resulting stuffed frame.
 
